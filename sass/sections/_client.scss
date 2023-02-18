@@ -1,0 +1,22 @@
+/* ====CLIENTS===*/
+.clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-item:not(:last-child) {
+         margin-right: 30px;
+    }
+
+    &-icon {
+            fill: currentColor;
+        }
+}
+
+
+
+
+
+
+
+

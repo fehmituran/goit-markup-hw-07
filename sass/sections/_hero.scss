@@ -1,0 +1,39 @@
+
+
+.hero {
+    background-color: $hero-footer-background-color;
+    color: $hero-text-color;
+
+    &-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 200px 0;
+    }
+
+    &-heading {
+        font-family: Roboto, sans-serif;
+        line-height: 1.4;
+        letter-spacing: 0.06em;
+        font-size: $hero-font ;
+        text-align: center;
+        font-weight: 900;
+        margin-bottom: 30px;
+    }
+
+   
+}
+
+.overlay {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/hero-ig.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

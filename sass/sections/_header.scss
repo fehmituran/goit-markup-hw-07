@@ -1,0 +1,66 @@
+.header {
+    border-bottom: 1px solid #ececec;
+
+    .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    }
+
+    .navbar {
+            font-style: normal;
+            font-size: $primary-font-size;
+            font-weight: 500;
+            font-family: Roboto, sans-serif;
+            letter-spacing: 0.02em;
+            line-height: 1.2;
+            display: flex;
+            align-items: center;
+    }
+   
+    .nav {
+            display: flex;
+            align-items: center;
+            margin-left: 97px;
+    
+            &-item:not(:last-child) {
+                margin-right: 50px;
+                padding-top: 32px;
+                padding-bottom: 32px;
+            }
+       
+            &-contacts {
+                display: flex;
+                align-items: center;
+    
+                &-item:not(:last-child) {
+                    margin-right: 50px;
+                }
+                    
+                &-icon {
+                    margin-right: 10px;
+                    fill: currentColor;
+    
+                    &-nav {
+                        margin-right: 10px;
+                    }
+                }
+            }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
