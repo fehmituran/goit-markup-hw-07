@@ -3,18 +3,18 @@
   @import "./base/base";
   @import "./base/container";
   @import "./base/section";
-  @import "./components/modal";
-  @import "./components/buttons";
-  @import "./components/links";
-  @import "./components/logo";
-  @import "./sections/header";
-  @import "./sections/hero";
-  @import "./sections/about";
-  @import "./sections/wedo";
-  @import "./sections/team";
-  @import "./sections/client";
-  @import "./sections/footer";
-  @import "./sections/portfolio";
+  @import "./component/modal";
+  @import "./component/buttons";
+  @import "./component/links";
+  @import "./component/logo";
+  @import "./layout/header";
+  @import "./layout/hero";
+  @import "./layout/about";
+  @import "./layout/wedo";
+  @import "./layout/team";
+  @import "./layout/client";
+  @import "./layout/footer";
+  @import "./layout/portfolio";
  
  
 
@@ -32,9 +32,6 @@
 
 
 
-
-
-/*==========PAGE HEADER=========*/
 
 
 
